@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+  <div id="myDiv2"></div>
+
+  <script>
+    // Correctly accessing and modifying the content of a pre-existing element
+    document.getElementById("myDiv2").innerHTML = "This text is now visible.";
+  </script>
+</body>
+</html>
