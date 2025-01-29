@@ -1,0 +1,3 @@
+This repository demonstrates a subtle HTML/JavaScript bug related to manipulating the DOM. The `bug.html` file contains the flawed code, attempting to use `innerHTML` on an element that doesn't exist at the time of execution. The `bugSolution.html` file provides the corrected version.
+
+The bug is particularly insidious because it doesn't throw an error. Instead, it simply fails silently, leading to unexpected behavior in the application.
